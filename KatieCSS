@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="form1" action="">
+
+	Number:<br>
+  		<input type="text" name="number"><br>
+  	Size:<br>
+  		<input type="text" name="size"><br>
+
+		<input type="submit" value="Submit" onclick="return makeBoxes()">
+  		<input type="reset">
+</form>
+
+<div style="width:500px;height:200px;border:1px solid #000;">
+ 
+</div>
+
+<script>
+function makeBoxes() {
+alert('test run');
+}
+</script>
+
+</body>
+</html>
